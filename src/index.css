@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* Custom component styles */
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  transform: scale(1);
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6, 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.btn-secondary {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+  transform: scale(1);
+}
+
+.btn-secondary:hover {
+  background-color: #e2e8f0;
+  transform: scale(1.05);
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  padding: 1.5rem;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
